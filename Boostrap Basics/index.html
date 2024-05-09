@@ -261,8 +261,8 @@
       <div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="register form" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <div class="modal-header bg-info text-white">
+              <h5 class="modal-title" id="exampleModalLabel">Register for Full Stack Conf</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -270,6 +270,12 @@
             <div class="modal-body">
               <!-- Registration Form -->
               <form>
+                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                  <strong>Hurry!</strong> Early bird registraion ends in 2 days.
+                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
                 <h5 class="mb-4">Basic Info</h5>
                 <div class="form-group">
                   <label class="form-control-label sr-only" for="name">Name:</label>
@@ -281,7 +287,7 @@
                 </div>
                   <div class="form-group">
                     <label for="role">Job Role</label>
-                    <select class="form-control" id="role">
+                    <select class="custom-select form-control" id="role">
                       <option value="full stack js developer">Full Stack JavaScript Developer</option>
                       <option value="front end developer">Front End Developer</option>
                       <option value="back end developer">Back End Developer</option>
@@ -290,6 +296,44 @@
                     </select>
                   </div>
 
+                  <hr class="my-4">
+                  <h5 class="mb-4">Which Topics Interest You Most?</h5>
+
+                  <div class="form-check">
+                    <label class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input">
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">JavaScript Framework</span>
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <label class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input">
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">JavaScript Libraries</span>
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <label class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input">
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">Node.js</span>
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <label class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input">
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">Build Tools</span>
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <label class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input">
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">ES2015</span>
+                    </label>
+                  </div>
               </form><!-- /Registration Form -->
             </div>
           </div>
